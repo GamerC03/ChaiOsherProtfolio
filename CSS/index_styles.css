@@ -7,10 +7,11 @@
         }
 
         header {
-            background: #808080;
+            background-image: url(../Images/Homebackground.png);
             font-family: Arial, Helvetica, sans-serif;
-            height: 70px;
+            height: 500px;
             padding: 15px;
+            
         }
         nav {
             width: 100%;
@@ -21,6 +22,8 @@
             justify-content: flex;
             height: 100%;
             width: 100%;
+            margin-top: -11%;
+            
         }
         
         .logo-name{
