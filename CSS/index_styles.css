@@ -5,6 +5,8 @@
             margin: 0;
             padding: 0;
         }
+ 
+        /*header code*/
 
         header {
             background-image: url(../Images/Homebackground.png);
@@ -13,6 +15,8 @@
             padding: 15px;
             
         }
+        
+
         nav {
             width: 100%;
             background-color: transparent;
@@ -76,7 +80,56 @@
         }
 
 
+        /*Footer code*/
+
         footer{
             background: #808080;
             color: black;
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: center;
         }
+
+        .fleft {
+            margin-right: auto;
+            margin-left: 350px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .fright {
+            margin-right: 350px;
+            margin-left: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+
+        /*Project selections code*/
+        .projects {
+            display: grid;
+            padding: 20px;
+            grid-template-columns: 400px 400px 400px;
+            justify-content: center;
+        }
+
+        .projects figure {
+            margin: 0 auto auto auto;
+            padding: 10px;
+            width: 400px;
+        }
+
+        .projects figure img {
+            width: 350px;
+            height: 350px;
+            border: 5px solid #808080;
+        }
+
+        .projects figure figcaption {
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+       
+
+        
