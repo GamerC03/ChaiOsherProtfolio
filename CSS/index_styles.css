@@ -79,6 +79,29 @@
             background-color: #003870;
         }
 
+        .welcome{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .welcome div {
+            background-color: rgb(64 64 64 / 0.4);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .welcome div h1{
+            font-weight: 800;
+            opacity: 100%;
+        }
+
+        .welcome div p {
+            font-weight: 400;
+        }
+
 
         /*Footer code*/
 
