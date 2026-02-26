@@ -115,10 +115,23 @@
 
         /* eveything else */
 
+        .aboutme {
+            padding: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .profilephoto img{
-            width: 250px;
+            width: 200px;
             border: 6px solid #808080;
             
+        }
+
+        .cnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .conections {
@@ -140,6 +153,8 @@
             padding-right: 30px;
             padding-top: 4px;
             padding-bottom: 4px;
+
+            margin-left: 10px;
         }
 
         .conections li a img{
